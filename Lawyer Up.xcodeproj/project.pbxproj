@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C766CB691B8FE3000048A178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB681B8FE3000048A178 /* main.m */; };
 		C766CB711B8FE3340048A178 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB701B8FE3340048A178 /* Lawyer.m */; settings = {ASSET_TAGS = (); }; };
+		C766CB741B8FE4050048A178 /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB731B8FE4050048A178 /* Practice.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		C766CB681B8FE3000048A178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C766CB6F1B8FE3340048A178 /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
 		C766CB701B8FE3340048A178 /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
+		C766CB721B8FE4050048A178 /* Practice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
+		C766CB731B8FE4050048A178 /* Practice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				C766CB681B8FE3000048A178 /* main.m */,
+				C766CB721B8FE4050048A178 /* Practice.h */,
+				C766CB731B8FE4050048A178 /* Practice.m */,
 				C766CB6F1B8FE3340048A178 /* Lawyer.h */,
 				C766CB701B8FE3340048A178 /* Lawyer.m */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C766CB741B8FE4050048A178 /* Practice.m in Sources */,
 				C766CB691B8FE3000048A178 /* main.m in Sources */,
 				C766CB711B8FE3340048A178 /* Lawyer.m in Sources */,
 			);

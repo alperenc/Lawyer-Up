@@ -11,7 +11,10 @@
 @interface Lawyer : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *specialty;
+@property (nonatomic, strong) NSNumber *rate;
 
 -(instancetype)initWithName:(NSString *)name;
+
 
 @end
