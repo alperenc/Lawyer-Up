@@ -19,6 +19,6 @@ typedef NS_ENUM(NSUInteger, Specialty) {
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *problemDescription;
-@property (nonatomic, strong) Specialty *specialty;
+@property (nonatomic, assign) Specialty *specialty;
 
 @end

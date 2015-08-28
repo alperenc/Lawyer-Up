@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ClientLawyerDelegate.h"
 
 @class Practice;
 
@@ -17,6 +18,7 @@
 @property (nonatomic, strong) Practice *practice;
 @property (nonatomic, strong) NSNumber *rate;
 @property (nonatomic, strong) NSMutableSet *clientList;
+@property (nonatomic, strong) id<ClientLawyerDelegate> delegate;
 
 -(instancetype)initWithName:(NSString *)name specialty:(NSString *)specialty practice:(Practice *)practice;
 

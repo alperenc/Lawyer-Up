@@ -11,6 +11,7 @@
 		C766CB711B8FE3340048A178 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB701B8FE3340048A178 /* Lawyer.m */; settings = {ASSET_TAGS = (); }; };
 		C766CB741B8FE4050048A178 /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB731B8FE4050048A178 /* Practice.m */; settings = {ASSET_TAGS = (); }; };
 		C766CB771B8FEAE60048A178 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB761B8FEAE60048A178 /* Client.m */; settings = {ASSET_TAGS = (); }; };
+		C766CB7A1B8FF2780048A178 /* Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB791B8FF2780048A178 /* Associate.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,9 @@
 		C766CB731B8FE4050048A178 /* Practice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
 		C766CB751B8FEAE60048A178 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		C766CB761B8FEAE60048A178 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		C766CB781B8FF2780048A178 /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Associate.h; sourceTree = "<group>"; };
+		C766CB791B8FF2780048A178 /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Associate.m; sourceTree = "<group>"; };
+		C766CB7B1B8FF4E20048A178 /* ClientLawyerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientLawyerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,9 @@
 				C766CB701B8FE3340048A178 /* Lawyer.m */,
 				C766CB751B8FEAE60048A178 /* Client.h */,
 				C766CB761B8FEAE60048A178 /* Client.m */,
+				C766CB7B1B8FF4E20048A178 /* ClientLawyerDelegate.h */,
+				C766CB781B8FF2780048A178 /* Associate.h */,
+				C766CB791B8FF2780048A178 /* Associate.m */,
 			);
 			path = "Lawyer Up";
 			sourceTree = "<group>";
@@ -136,6 +143,7 @@
 				C766CB741B8FE4050048A178 /* Practice.m in Sources */,
 				C766CB691B8FE3000048A178 /* main.m in Sources */,
 				C766CB771B8FEAE60048A178 /* Client.m in Sources */,
+				C766CB7A1B8FF2780048A178 /* Associate.m in Sources */,
 				C766CB711B8FE3340048A178 /* Lawyer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
