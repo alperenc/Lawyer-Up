@@ -7,14 +7,18 @@
 //
 
 #import "Lawyer.h"
+#import "Practice.h"
 
 @implementation Lawyer
 
--(instancetype)initWithName:(NSString *)name {
+-(instancetype)initWithName:(NSString *)name specialty:(NSString *)specialty practice:(Practice *)practice {
     self = [super init];
     
     if (self) {
         self.name = name;
+        self.specialty = specialty;
+        self.practice = practice;
+        self.clientList = [NSMutableSet set];
     }
     
     return self;

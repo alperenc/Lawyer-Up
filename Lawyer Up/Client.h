@@ -1,5 +1,5 @@
 //
-//  Practice.h
+//  Client.h
 //  Lawyer Up
 //
 //  Created by Alp Eren Can on 27/08/15.
@@ -15,10 +15,10 @@ typedef NS_ENUM(NSUInteger, Specialty) {
     CorporateLaw
 };
 
-@interface Practice : NSObject
+@interface Client : NSObject
 
-@property (nonatomic, strong) NSDictionary *rates;
-
-- (instancetype)init;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *problemDescription;
+@property (nonatomic, strong) Specialty *specialty;
 
 @end

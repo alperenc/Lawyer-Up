@@ -8,13 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+@class Practice;
+
 @interface Lawyer : NSObject
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *specialty;
+@property (nonatomic, strong) Practice *practice;
 @property (nonatomic, strong) NSNumber *rate;
+@property (nonatomic, strong) NSMutableSet *clientList;
 
--(instancetype)initWithName:(NSString *)name;
+-(instancetype)initWithName:(NSString *)name specialty:(NSString *)specialty practice:(Practice *)practice;
 
 
 @end
