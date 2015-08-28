@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C766CB691B8FE3000048A178 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB681B8FE3000048A178 /* main.m */; };
+		C766CB711B8FE3340048A178 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = C766CB701B8FE3340048A178 /* Lawyer.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C766CB651B8FE3000048A178 /* Lawyer Up */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lawyer Up"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C766CB681B8FE3000048A178 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C766CB6F1B8FE3340048A178 /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
+		C766CB701B8FE3340048A178 /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C766CB681B8FE3000048A178 /* main.m */,
+				C766CB6F1B8FE3340048A178 /* Lawyer.h */,
+				C766CB701B8FE3340048A178 /* Lawyer.m */,
 			);
 			path = "Lawyer Up";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C766CB691B8FE3000048A178 /* main.m in Sources */,
+				C766CB711B8FE3340048A178 /* Lawyer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
