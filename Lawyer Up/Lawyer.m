@@ -7,11 +7,10 @@
 //
 
 #import "Lawyer.h"
-#import "Practice.h"
 
 @implementation Lawyer
 
--(instancetype)initWithName:(NSString *)name specialty:(NSString *)specialty practice:(Practice *)practice {
+-(instancetype)initWithName:(NSString *)name specialty:(Specialty)specialty practice:(Practice *)practice {
     self = [super init];
     
     if (self) {

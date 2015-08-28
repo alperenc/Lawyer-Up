@@ -12,9 +12,20 @@
 
 -(void)addClientToClientList:(Client *)client forLawyer:(Lawyer *)lawyer {
     
+    [lawyer.clientList addObject:client];
+    
 }
 -(int)payableAmountForClient:(Client *)client forLawyer:(Lawyer *)lawyer {
-    return 0;
+    int amount;
+    if (client.description.length < 10) {
+        amount = [lawyer.rate intValue] * 5;
+    } else if (client.description.length < 20) {
+        amount =  [lawyer.rate intValue] * 10;
+    } else {
+        amount = [lawyer.rate intValue] * 25;
+    }
+    
+    return amount;
 }
 
 @end

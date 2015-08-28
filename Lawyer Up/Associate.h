@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "ClientLawyerDelegate.h"
-
-@class Lawyer;
-@class Client;
+#import "Lawyer.h"
+#import "Client.h"
 
 @interface Associate : NSObject <ClientLawyerDelegate>
 

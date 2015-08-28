@@ -21,4 +21,6 @@ typedef NS_ENUM(NSUInteger, Specialty) {
 @property (nonatomic, strong) NSString *problemDescription;
 @property (nonatomic, assign) Specialty *specialty;
 
+- (instancetype)initWithName:(NSString *)name problemDescription:(NSString *)description requiredSpecilization:(Specialty)specialty;
+
 @end

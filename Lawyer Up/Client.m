@@ -10,4 +10,13 @@
 
 @implementation Client
 
+- (instancetype)initWithName:(NSString *)name problemDescription:(NSString *)description requiredSpecilization:(Specialty)specialty
+{
+    self = [super init];
+    if (self) {
+        <#statements#>
+    }
+    return self;
+}
+
 @end
